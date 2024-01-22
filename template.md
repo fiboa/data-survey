@@ -1,22 +1,23 @@
-# Title
+# Title <!-- Replace with your title of the dataset -->
 
 ## Submission Details
 
-- **Submitter:** X
-- **Organization:** X
+- **Submitter (Affiliation):** John Doe, Example Corp.
+- **Data Provider (Legal Entity):** Field Data, Inc. (Company/Government/Individual/Other)
+- **Homepage:** https://homepage.example/data
 
 ## Overview
 
-*Please provide a short overview about your data and/or API.*
+<!-- Please provide a short overview about your data and/or API. -->
 
 ## Data
 
-*Any important information about your field boundary data,
-e.g. in which format and projection the geometry is provided.*
+<!-- Any important information about your field boundary data,
+e.g. in which format and projection the geometry is provided. -->
 
 - **URL:** https://data.example/files/
 - **Documentation:** https://docs.data.example
-- **File Format:** Shapefile/GeoPackage/CSV/GeoParquet/...
+- **File Format:** Shapefile
 - **Geometry Format:** WKT/GeoJSON/...
 - **Projection:** EPSG:4326/...
 - **License:** CC-0/...
@@ -25,15 +26,15 @@ e.g. in which format and projection the geometry is provided.*
 
 ### Example
 
-*Please provide a link to the data or embed it into this document as a code block.*
+<!-- Please provide a link to the data or embed it into this document as a code block. -->
 
 ## Metadata
 
-*Any important information about your metadata.
-Usually a list of properties with e.g. a short description, data type, constraints such as value range or allowed values, etc.*
+<!-- Any important information about your metadata.
+Usually a list of properties with e.g. a short description, data type, constraints such as value range or allowed values, etc. -->
 
-- **Documentation:** https://docs.data.example
-- **File Format:** CSV/XML/JSON/INSPIRE/...
+- **Documentation:** https://data.example/docs/
+- **Metadata Format (if different from data):** INSPIRE/...
 
 | Property | Data Type | Constraints | Description |
 | -------- | --------- | ----------- | ----------- |
@@ -41,19 +42,18 @@ Usually a list of properties with e.g. a short description, data type, constrain
 
 ### Example
 
-*Please provide a link to the data or embed it into this document as a code block.*
+<!-- Please provide a link to the data or embed it into this document as a code block. -->
 
 ## API
 
-*Any important information about your API that is not captured in the chapters above,
-e.g. an example response of a field boundary.*
+<!-- Any important information about your API that is not captured in the chapters above,
+e.g. an example response of a field boundary. -->
 
-- **URL:** https://data.example/api/
-- **Documentation:** https://docs.data.example
-- **Standard:** OGC WFS/OGC API - Features/proprietary/...
-
-...
+| Standard | URL | Documentation |
+| -------- | --- | ------------- |
+| OGC API - Features | https://data.example/api/ | https://data.example/api/docs/ |
+| OGC WMS            | https:/data.example/wms/ | - |
 
 ### Example
 
-*Please provide a link to the data or embed it into this document as a code block.*
+<!-- Please provide a link to the data or embed it into this document as a code block. -->
