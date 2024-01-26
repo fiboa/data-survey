@@ -3,7 +3,7 @@
 ## Submission Details
 
 - **Submitter (Affiliation):** Matthias Mohr
-- **Data Provider:** Open.NRW (Government)
+- **Data Provider:** Land Nordrhein-Westfalen / Open.NRW (Government)
 - **Homepage:** https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/
 
 ## Overview
@@ -15,7 +15,7 @@ A field block (German: "Feldblock") is a contiguous agricultural area surrounded
 - **URL:** https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/DGL_EPSG25832_Shape.zip
 - **Documentation:** https://www.geoportal.nrw/app.html?lang=de#/datasets/iso/57ba5409-f0de-4882-90b6-38660b088594
 - **File Format:** Shapefile
-- **Geometry Format:** Shapefile
+- **Geometry Format (if different from data):** -
 - **Projection:** EPSG:25832 (UTM 32N)
 - **License:** [Datenlizenz Deutschland Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0)
 
@@ -30,7 +30,7 @@ A field block (German: "Feldblock") is a contiguous agricultural area surrounded
 | INSPIRE_ID | string    | 65 chars        | INSPIRE-compliant identifier. Example: `https://geodaten.nrw.de/id/inspire-lc-dgl/landcoverunit/6467974` |
 | FLIK       | string    | 16 chars        | Area identifier for field blocks. Example: `DENWLI0552020444` |
 | GUELT_VON  | string    | ISO date        | Valid since the given date.                                  |
-| NUTZ_CODE  | string    | A, G, S, F or K | Land use. A = Arable land, G = Permanent grassland, S = Other land, F = Eligible in the 2nd pillar, K = Permanent Crops |
+| NUTZ_CODE  | string    | A, G, S, F or K | Category of land use. A = Arable land, G = Permanent grassland, S = Other land, F = Eligible in the 2nd pillar, K = Permanent Crops |
 | NUTZ_TXT   | string    | see description | Textual representation of NUTZ_CODE in German (`Ackerland`, `Dauergrünland`, `Sonstige Flächen`, `Förderfähig 2. Säule`,  `Dauerkultur`) |
 | AREA_HA    | number    | > 0             | Area in ha                                                   |
 

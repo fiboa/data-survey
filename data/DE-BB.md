@@ -17,7 +17,7 @@ The field blocks, landscape elements and NBF areas are digitized on the basis of
 - **URL:** https://data.geobasis-bb.de/geofachdaten/Landwirtschaft/dfbk.zip
 - **Documentation:** -
 - **File Format:** Shapefile
-- **Geometry Format:** Shapefile
+- **Geometry Format (if different from data):** -
 - **Projection:** EPSG:25833 (UTM 33N)
 - **License:** [Datenlizenz Deutschland Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0) / Proprietary
 
@@ -43,8 +43,8 @@ Metadata for the FB files (see above).
 | FGUE_JAHR  | string    | 4 chars                                       | Year which the field is valid for                            |
 | FB_ID      | string    | 16 chars                                      | Field block identifier (FLIK)                                |
 | HBN_KAT    | string    | 34A, 34G, AL, AL-AF, DK, GL_ELP,GL, GL-MO, HE | Category of main land use (see below)                        |
-| FL_BRUTTO  | number    | > 0                                           | Gross area in hectar                                         |
-| FL_NETTO_H | number    | > 0                                           | Net area in hectar ("exkl. zugeordnetem Landschaftselement") |
+| FL_BRUTTO  | number    | > 0                                           | Gross area in ha                                             |
+| FL_NETTO_H | number    | > 0                                           | Net area in ha ("exkl. zugeordnetem Landschaftselement")     |
 | KREIS_NR   | integer   | 5 digits                                      | Identifier for the regional office for agriculture           |
 | TK10_BLATT | string    | 6 chars                                       | Paper of the 1:10,000 topographic map in which the center of where the center of gravity of the field block lies. Example: `4044SO` |
 | GUELTVON_F | string    | ISO date                                      | Valid since                                                  |
