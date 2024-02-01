@@ -10,19 +10,20 @@
 
 A field block (German: "Feldblock") is a contiguous agricultural area surrounded by permanent boundaries, which is cultivated by one or more farmers with one or more crops, is fully or partially set aside or is fully or partially taken out of production. Field blocks are classified separately according to the main land uses of arable land, grassland, permanent crops, 2nd pillar and other. Since 2005, field blocks in NRW have represented the area reference within the framework of the Integrated Administration and Control System (IACS) for EU agricultural subsidies.
 
-## Data
+## Data & Metadata
 
 - **URL:** https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/DGL_EPSG25832_Shape.zip
-- **Documentation:** https://www.geoportal.nrw/app.html?lang=de#/datasets/iso/57ba5409-f0de-4882-90b6-38660b088594
+- **Documentation:**
+  - https://www.geoportal.nrw/app.html?lang=de#/datasets/iso/57ba5409-f0de-4882-90b6-38660b088594
+  - https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/Feature_Description_Chamber_of_Agriculture_NRW.pdf
+
 - **File Format:** Shapefile
 - **Geometry Format (if different from data):** -
+- **Metadata Format (if different from data):** INSPIRE
 - **Projection:** EPSG:25832 (UTM 32N)
 - **License:** [Datenlizenz Deutschland Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0)
 
-## Metadata
-
-- **Documentation:** https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/Feature_Description_Chamber_of_Agriculture_NRW.pdf
-- **Format:** Shapefile / INSPIRE
+### Properties
 
 | Property   | Data Type | Constraints     | Description                                                  |
 | ---------- | --------- | --------------- | ------------------------------------------------------------ |

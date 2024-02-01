@@ -12,12 +12,15 @@ The Digital Field Block Cadastre (DFBK) is an agricultural land cadastre. It con
 If a field block contains areas that cannot be used for agricultural purposes and are not an eligible landscape feature, these are marked as non-eligible areas (NBF).
 The field blocks, landscape elements and NBF areas are digitized on the basis of aerial photographs (digital orthophotos) in the agricultural offices of the districts and independent cities as part of the EU IACS procedure (Integrated Administration and Control System). The data provided here in the form of FB and LE also contain numerical information on the proportion of land in areas relevant for funding (e.g. nature conservation areas, NATURA2000 areas and others).
 
-## Data
+## Data & Metadata
 
 - **URL:** https://data.geobasis-bb.de/geofachdaten/Landwirtschaft/dfbk.zip
-- **Documentation:** -
+- **Documentation:**
+  - https://geoportal.brandenburg.de/detailansichtdienst/render?view=gdibb&url=https://geoportal.brandenburg.de/gs-json/xml?fileid=9e95f21f-4ecf-4682-9a44-e5f7609f6fa0
+  - https://www.geoportal-kommune-demo.de/docs/dfbk/Doku_DFBK.pdf
 - **File Format:** Shapefile
 - **Geometry Format (if different from data):** -
+- **Metadata Format (if different from data):** -
 - **Projection:** EPSG:25833 (UTM 33N)
 - **License:** [Datenlizenz Deutschland Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0) / Proprietary
 
@@ -27,16 +30,9 @@ There are three different files included:
 
 - NBF (Areas not eligible for state aid)
 - LE (landscape elements)
-- **FB (field blocks) - This are the actual field boundaries.**
+- **FB (field blocks) - These are the actual field boundaries.**
 
-## Metadata
-
-Metadata for the FB files (see above).
-
-- **Documentation:**
-  - https://geoportal.brandenburg.de/detailansichtdienst/render?view=gdibb&url=https://geoportal.brandenburg.de/gs-json/xml?fileid=9e95f21f-4ecf-4682-9a44-e5f7609f6fa0
-  - https://www.geoportal-kommune-demo.de/docs/dfbk/Doku_DFBK.pdf
-- **Metadata Format (if different from data):** -
+### Properties
 
 | Property   | Data Type | Constraints                                   | Description                                                  |
 | ---------- | --------- | --------------------------------------------- | ------------------------------------------------------------ |

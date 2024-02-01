@@ -12,23 +12,20 @@ The layer includes all reference parcels ("Referenzparzellen") defined by the pa
 
 Reference parcel: is the physical block that can be clearly delimited from the outside (e.g. forest, roads, water bodies) and is formed by contiguous agricultural areas that are recognizable in nature.
 
-## Data
+## Data & Metadata
 
 - **URL:**
   - GeoPackage: https://inspire.lfrz.gv.at/009501/ds/inspire_referenzen_2021_polygon.gpkg.zip
   - GML: https://inspire.lfrz.gv.at/009501/ds/inspire_referenzen_2021_polygon.gml.zip
 - **Documentation:** https://www.data.gv.at/katalog/dataset/ama_invekosreferenzensterreich2021/resource/2359389c-15c2-4ba0-ba03-d57f3d109460
+  Documentation about the metadata is missing, thus the descriptions and constraints below are partially assumptions and partially missing.
 - **File Format:** GeoPackage / GML
 - **Geometry Format (if different from data):** - (Points available in addition to Polygons)
+- **Metadata Format (if different from data):** INSPIRE (ISO 19115)
 - **Projection:** EPSG:31287
 - **License:** CC-BY-4.0
 
-## Metadata
-
-- **Documentation:** Partially at https://www.data.gv.at/katalog/dataset/ama_invekosreferenzensterreich2021/resource/2359389c-15c2-4ba0-ba03-d57f3d109460
-- **Metadata Format (if different from data):** INSPIRE (ISO 19115)
-
-Documentation about the metadata is missing, thus the descriptions and constraints below are partially assumptions and partially missing.
+### Properties
 
 | Property            | Data Type | Constraints | Description                                                  |
 | ------------------- | --------- | ----------- | ------------------------------------------------------------ |

@@ -10,7 +10,7 @@
 
 Field blocks in Schleswig-Holstein.
 
-## Data
+## Data & Metadata
 
 - **URL:**
   - GeoPackage: https://service.gdi-sh.de/SH_OpenGBD/feeds/Atom_SH_Feldblockfinder_OpenGBD/data/Feldbloecke_2024_GPKG.zip
@@ -18,13 +18,11 @@ Field blocks in Schleswig-Holstein.
 - **Documentation:** no direct link. visit homepage, click "PDF herunterladen"
 - **File Format:** Shapefile / GeoPackage
 - **Geometry Format (if different from data):** -
+- **Metadata Format (if different from data):** INSPIRE
 - **Projection:** EPSG:25832 (UTM 32N) or EPSG:4258 (ETRS89)
 - **License:** [Deutschland – Zero – Version 2.0](https://www.govdata.de/dl-de/zero-2-0)
 
-## Metadata
-
-- **Documentation:** -
-- **Metadata Format (if different from data):** INSPIRE
+### Properties
 
 | Property   | Data Type | Constraints | Description |
 | ---------- | --------- | ----------- | ----------- |
