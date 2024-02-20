@@ -16,7 +16,9 @@ The following data has been surveyed:
 ## Contribute
 
 - Feel strongly encouraged to submit your information for the survey via a
-  [Pull Request](https://github.com/fiboa/data-survey/pulls).
+  [Pull Request](https://github.com/fiboa/data-survey/pulls). If you aren't comfortable with GitHub you can alternatively
+  use the [google doc version](https://docs.google.com/document/d/1MQrVOG11bT_TbdorqxS8gL1CjJBWIkdYfok0dzTIz5Q/edit) and follow
+  the instructions there.
 - Please use the [template.md](template.md) to fill the survey. See the examples above for inspiration.
 - Place the document with a descriptibe name into the [data](data/) folder.
   If you provide more than one file, please create a folder that contains all files.
