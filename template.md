@@ -22,12 +22,15 @@ e.g. in which format and projection the geometry is provided. -->
 - **Metadata Format (if different from data):** INSPIRE/...
 - **Projection:** EPSG:4326/...
 - **License:** CC-0/Commercial/...
+- **Data Creation Details:** Official Surveys, Ground-truthed, Labeled data, CV/AI output, Farmer/machine upload, etc.
+- **Computer Vision / AI Details:** Is this dataset created with CV/AI? Is it labeled data used as input to CV/AI? Any other interesting information? 
 
 ...
 
 ### Properties
 
-<!-- A list of properties with e.g. a short description, data type, constraints such as value range or allowed values, etc. -->
+<!-- A list of properties with e.g. a short description, data type, constraints such as value range or allowed values, etc. This can be found by opening the data file in qgis, then 
+   right clicking on the layer and selecting 'layer properties', and then going to the 'fields' section. The 'name' in qgis is the property in this table, and the 'Type name' is the Data Type -->
 
 | Property | Data Type | Constraints | Description |
 | -------- | --------- | ----------- | ----------- |
@@ -37,7 +40,7 @@ e.g. in which format and projection the geometry is provided. -->
 
 <!-- Please provide a link to the data or embed it into this document as a code block. -->
 
-## API
+## API (optional)
 
 <!-- Any important information about your API that is not captured in the chapters above,
 e.g. an example response of a field boundary. -->
