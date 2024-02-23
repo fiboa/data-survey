@@ -15,7 +15,7 @@ Field boundaries are served as Geojson via API for a given point, bbox or field 
 ## Data & Metadata
 
 - **URL:** https://digi-map.s3.eu-central-1.amazonaws.com/dev-raster-viewer/index.html?tables=demo_belgium_merelbeke#12.55/50.95761/3.74169
-- **Documentation:** contained in the ZIP packages
+- **Documentation:** Available online
 - **File Format:** GeoPackage / Shapefile / GeoJson
 - **Geometry Format (if different from data):** -
 - **Metadata Format (if different from data):** -
