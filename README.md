@@ -13,6 +13,8 @@ The following data has been surveyed:
 - [Vlaanderen, Belgium](data/BE-Vlaanderen.md)
 - [EuroCrops](data/EU-EuroCrops.md)
 - [Digifarm](data/EU-Digifarm.md)
+- [AI4Boundaries](data/AI4Boundaries.md)
+
 
 ## Data Survey Instructions
 
