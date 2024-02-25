@@ -12,7 +12,9 @@ The following data has been surveyed:
 - [Austria: INVEKOS Referenzen Österreich 2021](data/AT.md)
 - [Vlaanderen, Belgium](data/BE-Vlaanderen.md)
 - [EuroCrops](data/EU-EuroCrops.md)
+- [Digifarm](data/EU-Digifarm.md)
 - [AI4Boundaries](data/AI4Boundaries.md)
+
 
 ## Data Survey Instructions
 
