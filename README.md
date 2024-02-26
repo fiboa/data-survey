@@ -18,6 +18,9 @@ The following data has been surveyed:
 - [AI4SmallFarms (Southeast Asia)](data/VM-KH-AI4SmallFarms.md)
 - [India - 10k small holder](data/IN.md)
 - [Planet](data/Planet.md)
+- [PASTIS](/PASTIS.md)
+- [USDA Crop Sequence Boundaries](data/US.md)
+- [Global FieldID (Varda)](data/Global%20FieldID.md)
 
 
 ## Data Survey Instructions
