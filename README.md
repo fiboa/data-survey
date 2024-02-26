@@ -14,6 +14,10 @@ The following data has been surveyed:
 - [EuroCrops](data/EU-EuroCrops.md)
 - [Digifarm](data/EU-Digifarm.md)
 - [AI4Boundaries](data/AI4Boundaries.md)
+- [Open Supply Hub](data/Open-Supply-Hub.md)
+- [AI4SmallFarms (Southeast Asia)](data/VM-KH-AI4SmallFarms.md)
+- [India - 10k small holder](data/IN.md)
+- [Planet](data/Planet.md)
 
 
 ## Data Survey Instructions
