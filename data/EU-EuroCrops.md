@@ -8,7 +8,7 @@
 
 ## Overview
 
-EuroCrops is a dataset collection combining all publicly available  self-declared crop reporting datasets from countries of the European Union. The following countries are covered:
+EuroCrops is a dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union. The following countries are covered:
 
 - [Austria](https://github.com/maja601/EuroCrops/wiki/Austria)
 - [Belgium](https://github.com/maja601/EuroCrops/wiki/Belgium)
@@ -33,12 +33,14 @@ EuroCrops is a dataset collection combining all publicly available  self-declare
 - **URL:**
   - Shapes: https://syncandshare.lrz.de/getlink/fiAD95cTrXbnKMrdZYrFFcN8/
   - Metadata: https://zenodo.org/records/10118572
+  - Cloud Native Geo Version: https://beta.source.coop/repositories/cholmes/eurocrops/
 
 - **Documentation:** https://github.com/maja601/EuroCrops
 - **File Format:** various (see below)
 - **Geometry Format (if different from data):**
   - Shapefile
   - GeoJSON (MultiPolygon)
+  - GeoParquet, Flatgeobuf and PMTiles single file harmonized only versions on source cooperative.
 
 - **Metadata Format (if different from data):**
   - Shapefile (see properties below)
@@ -60,6 +62,9 @@ The properties in the Shapefiles correspond to the source datasets from the indi
 | EC_trans_n | string    | see HCAT    | The original crop name translated into English              |
 | EC_hcat_n  | string    |             | The machine-readable HCAT name of the crop                  |
 | EC_hcat_c  | string    | digits only | The 10-digit HCAT code indicating the hierarchy of the crop |
+
+As noted above, each individual country has many more attributes, as they are sourced from different national sources. In the ['cloud native' versions](https://beta.source.coop/cholmes/eurocrops/) 
+the only attributes included are the three above, plus the geometry, and all countries are combined into a single file.
 
 ## API
 
