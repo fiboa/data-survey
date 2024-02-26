@@ -30,13 +30,15 @@ e.g. in which format and projection the geometry is provided. -->
 
 | Property | Data Type | Constraints | Description       |
 | -------- | --------- | ----------- | ----------------- |
-| sample   | integer   | 0-2002      | Sample image ID   |
+| area     | double    |             | Area (not sure of units)   |
+| sample   | integer   |             | ?                 |
 
 ### Example
 
 | Property   | Example Value    |
 | ---------- | ---------------- |
-| sample     | 2002             |
+| area       | 15182.634905182778311 |
+| sample     | sample           |
 
 ## API (optional)
 
