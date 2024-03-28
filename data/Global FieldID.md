@@ -20,7 +20,8 @@ The GFID data model includes objects representing:
 * spatial relationships between boundaries
 
 GFID data is open by default, but permits registration of limited-access private data to enable discovery and/or private sharing networks. For every field, an openly accessible 'default' boundary must be provided; whilst users may contribute data to update the record, all default boundaries must be open.
-- **Documentation:** [https://docs.data.example](https://developer.varda.ag/fid)
+- **Documentation:** [Developer Portal](https://developer.varda.ag/fid)
+- **Downloads:** [Download Hub](https://fieldid.varda.ag/hub/downloads)
 - **File Format:** GeoJSON
 - **Projection:** EPSG:4326
 - **License:** Mixed (see https://fieldid.varda.ag/terms-conditions)
@@ -31,6 +32,8 @@ GFID data is open by default, but permits registration of limited-access private
 
 ### Properties
 
+Properties of the `boundary` object, which is an object representing a cannonical boundary, deduplicated across multiple references from individual datasets. A boundary may or may not be the _defining_ boundary of a field object, and will have at least one 'boundary reference' indicating the original source(s) of this boundary geometry.
+
 | Property             | Data Type      | Constraints        | Description |
 | -------------------- | -------------- | ------------------ | ----------- |
 | area                 | object (value and unit) | value is a double, unit is m2 | The area contained within the geometry. |
@@ -40,6 +43,7 @@ GFID data is open by default, but permits registration of limited-access private
 | country_iso_codes    | array (string) | ISO 3166-1 alpha-3 | The country(ies) the boundary falls within. Politically agnostic. |
 | field_relationships  | array (object) | 0 to many | temporally-bound relationships with any field the boundary has been used to represent. |
 | boundary_relationships | array (object) | 0 to many | quantified spatial overlap with any other boundaries. | 
+| boundary_references | array (object) | 1 to many | Provenance metadata from the source(s) that have registered this boundary. | 
 
 ### Example
 
