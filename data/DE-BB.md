@@ -22,7 +22,7 @@ The field blocks, landscape elements and NBF areas are digitized on the basis of
 - **Geometry Format (if different from data):** -
 - **Metadata Format (if different from data):** -
 - **Projection:** EPSG:25833 (UTM 33N)
-- **License:** [Datenlizenz Deutschland Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0) / Proprietary
+- **License:** [Data licence Germany – attribution – Version 2.0](https://www.govdata.de/dl-de/by-2-0) / Proprietary
 
 Data can also retrieved through their shop in other projections and file formats.
 

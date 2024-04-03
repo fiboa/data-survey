@@ -9,6 +9,7 @@ The following data has been surveyed:
 - [North Rhine-Westphalia (NRW), Germany](data/DE-NRW.md)
 - [Berlin / Brandenburg, Germany](data/DE-BB.md)
 - [Schleswig-Holstein (SH), Germany](data/DE-SH.md)
+- [Lower Saxony, Germany](data/DE-NDS.md)
 - [Austria: INVEKOS Referenzen Österreich 2021](data/AT.md)
 - [Vlaanderen, Belgium](data/BE-Vlaanderen.md)
 - [EuroCrops](data/EU-EuroCrops.md)

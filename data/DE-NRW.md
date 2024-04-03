@@ -21,7 +21,7 @@ A field block (German: "Feldblock") is a contiguous agricultural area surrounded
 - **Geometry Format (if different from data):** -
 - **Metadata Format (if different from data):** INSPIRE
 - **Projection:** EPSG:25832 (UTM 32N)
-- **License:** [Datenlizenz Deutschland Namensnennung 2.0](https://www.govdata.de/dl-de/by-2-0)
+- **License:** [Data licence Germany – attribution – Version 2.0](https://www.govdata.de/dl-de/by-2-0)
 
 ### Properties
 
