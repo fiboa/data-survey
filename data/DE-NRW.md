@@ -12,7 +12,7 @@ A field block (German: "Feldblock") is a contiguous agricultural area surrounded
 
 ## Data & Metadata
 
-- **URL:** https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/DGL_EPSG25832_Shape.zip
+- **URL:** https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/LFK-AKTI_EPSG25832_Shape.zip
 - **Documentation:**
   - https://www.geoportal.nrw/app.html?lang=de#/datasets/iso/57ba5409-f0de-4882-90b6-38660b088594
   - https://www.opengeodata.nrw.de/produkte/umwelt_klima/bodennutzung/landwirtschaft/Feature_Description_Chamber_of_Agriculture_NRW.pdf
@@ -89,4 +89,3 @@ The API has a slightly different naming scheme compared to the Shapefiles.
   ]
 }
 ```
-
