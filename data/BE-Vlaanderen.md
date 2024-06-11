@@ -5,6 +5,7 @@
 - **Submitter (Affiliation):** Matthias Mohr
 - **Data Provider (Legal Entity):** Agriculture and Marine Fisheries Agency of the Flemish government (Government)
 - **Homepage:** https://landbouwcijfers.vlaanderen.be/open-geodata-landbouwgebruikspercelen
+- **Alternative URL:** https://www.vlaanderen.be/datavindplaats/catalogus/landbouwgebruikspercelen-lv-2022
 
 ## Overview
 
@@ -20,7 +21,7 @@ From 2023, the downloadable dataset of agricultural use plots will also include 
 - **Geometry Format (if different from data):** -
 - **Metadata Format (if different from data):** -
 - **Projection:** EPSG:31370 (Belgian Lambert 72)
-- **License:** *No license information found*
+- **License:** CC-0 (described as "Publiek" and "Toegang zonder voorwaarden")
 
 ### Properties
 
@@ -69,6 +70,11 @@ Note: Many integer-like numbers are encoded as strings.
 
 ## API
 
-The viewer uses an WMS to display information, but it's not exposed as an official servcie to the public.
+The open data viewer https://geopunt.be/ shows the data in a viewer (search term: landbouwgebruikspercelen)
+See https://www.vlaanderen.be/datavindplaats/catalogus/landbouwgebruikspercelen-lv-2022 for more info
 
-Viewer: https://landbouwcijfers.vlaanderen.be/geoloket-landbouw
+| Standard     | URL                                                         | Documentation                                                                                        |
+|--------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| OGC WFS      | https://geo.api.vlaanderen.be/Landbgebrperc/wfs             | https://www.vlaanderen.be/datavindplaats/catalogus/wfs-landbouwgebruikspercelen                      |
+| OGC Features | https://geo.api.vlaanderen.be/Landbgebrperc/ogc/features/v1 | https://metadata.vlaanderen.be/srv/dut/catalog.search#/metadata/01f408db-df8a-49a2-8ce4-0f66b8efe17b |
+| OGC WMS      | https://geo.api.vlaanderen.be/ALV/wms                       | https://www.vlaanderen.be/datavindplaats/catalogus/wms-departement-landbouw-en-visserij              | 
