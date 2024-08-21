@@ -26,16 +26,17 @@ before the year starts, starting from 2008.
 
 ### Properties
 
-| Property  | Data Type | Constraints   | Description             |
-|-----------|-----------|---------------|-------------------------|
-| Marknr    | string    | max 200 chars | Identifier              |
-| IMK_areal | number    |               | Geometry Area           |
-| Journalnr | string    |               | Declaration identifier? |
-| CVR       | string    |               | Farmer identifier?      |
-| Afgkode   | integer   |               | Crop identifier         |
-| Afgroede  | string    |               | Crop description        |
-| GBanmeldt | number    |               | Declared Area           |
-| Markblok  | string    |               | Field block identifier  |
+| Property  | Data Type | Constraints   | Description                         |
+|-----------|-----------|---------------|-------------------------------------|
+| Marknr    | string    | max 200 chars | Identifier                          |
+| IMK_areal | number    |               | Geometry Area                       |
+| Journalnr | string    |               | Journal Number                      |
+| CVR       | string    |               | Requester identifier (farmer)       |
+| Afgkode   | integer   |               | Crop identifier                     |
+| Afgroede  | string    |               | Crop description                    |
+| GB        | number    | 0 or 1        | 1 indicates basic payment Requested |
+| GBanmeldt | number    |               | Declared Area                       |
+| Markblok  | string    |               | Field block identifier              |
 
 ## API
 
