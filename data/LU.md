@@ -3,8 +3,8 @@
 ## Submission Details
 
 - **Submitter (Affiliation):** Ivor Bosloper
-- **Data Provider (Legal Entity):** 
-- **Homepage:** https://data.public.lu/en/datasets/referentiel-des-parcelles-flik/
+- **Data Provider (Legal Entity):** Administration des services techniques de l'agriculture
+- **Homepage:** https://agriculture.public.lu/
 
 ## Overview
 
@@ -15,8 +15,10 @@ See https://data.public.lu/en/datasets/inspire-annex-ii-theme-land-cover-landcov
 
 ## Data & Metadata
 
+- **URL:** https://data.public.lu/en/datasets/referentiel-des-parcelles-flik/
 - **URL:** https://data.public.lu/fr/datasets/r/b4ae6690-7e4c-4454-8b60-9fa33ba6a61b
-- **Documentation:**  https://data.public.lu/en/datasets/inspire-annex-ii-theme-land-cover-landcoverunit-land-parcel-identification-system-lpis-2024-reference-data-of-agricultural-parcels/
+- **Documentation:** https://data.public.lu/en/datasets/inspire-annex-ii-theme-land-cover-landcoverunit-land-parcel-identification-system-lpis-2024-reference-data-of-agricultural-parcels/
+- **Documentation:** https://geocatalogue.geoportail.lu/geonetwork/srv/api/records/f511a4ee-928a-4900-ac05-52aa0ce03bba?language=eng
 - **File Format:** Shapefile-zip
 - **Projection:** EPSG:2169 (Luxembourg 1930 / Gauss)
 - **License:** CC0 (public domain)
