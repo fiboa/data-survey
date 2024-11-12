@@ -23,12 +23,18 @@ GERK/KRZ level with block id as an attribute and is updated monthly.
 The [MKGP-RKG public geographic data viewer](http://rkg.gov.si/GERK/WebViewer/) provides up-to-date data 
 for all GERKs in Slovenia, and data from the last aggregated application are available for download and via WMS.
 
+Example; KMRS_2023 layer includes farmers declarations for 2023. The data is for main crop - it is possible that
+this is not the only crop on certain area in this year. The date of data august 2023. A farmer can change
+the declaration until the control is announced by the paying agency.
+
+More information are available at: https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/21ecba4a-1214-4617-8bf4-020d2f235a25
+
 ## Data & Metadata
 
 - **URL:** https://rkg.gov.si/vstop/
 - **File Format:** Shapefile-rar
 - **Projection:** EPSG:3794
-- **License:** https://rkg.gov.si/vstop/   "Javno dostopni podatki" (Publicly available data)
+- **License:** https://rkg.gov.si/vstop/ "Javno dostopni podatki" (Publicly available data)
 
 Download either [GERK](https://rkg.gov.si/arhiv/GERK/GERK_2024_10_31.zip) (current field usage) or 
 [KMRS](https://rkg.gov.si/razno/portal_analysis/KMRS_2023.rar) (farmer application)
