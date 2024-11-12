@@ -37,7 +37,7 @@ with
 - **Documentation:** https://github.com/agroimpacts/lacunalabels
 - **File Format:** geoparquet
 - **Projection:** epsg:4326 (WGS 84)
-- **License:** Planet’s [participant license agreement for the NICFI contract](https://assets.planet.com/docs/Planet_ParticipantLicenseAgreement_NICFI.pdf).
+- **License:** Planet’s [participant license agreement for the NICFI contract](https://go.planet.com/nicfi-pla-2024).
 
 ### Properties
 
