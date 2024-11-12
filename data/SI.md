@@ -27,7 +27,7 @@ for all GERKs in Slovenia, and data from the last aggregated application are ava
 
 - **URL:** https://rkg.gov.si/vstop/
 - **File Format:** Shapefile-rar
-- **Projection:** 
+- **Projection:** EPSG:3794
 - **License:** https://rkg.gov.si/vstop/   "Javno dostopni podatki" (Publicly available data)
 
 Download either [GERK](https://rkg.gov.si/arhiv/GERK/GERK_2024_10_31.zip) (current field usage) or 
