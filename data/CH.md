@@ -35,15 +35,15 @@ The downloaded data can be shared with a open_by license. See https://opendata.s
 | Property                | Data Type | Constraints | Description     |
 |-------------------------|-----------|-------------|-----------------|
 | FID                     | number    |             | Identifier      |
-| bezugsjahr              | number    |             | Year            |
+| bezugsjahr              | number    |             | The year of validity |
 | lnf_code                | number    |             |                 |
 | nutzung                 | string    |             | Usage           |
 | ist_ueberlagernd        | boolean   |             | Overlaps        |
 | code_programm           | string    |             |                 |
 | programm                | string    |             |                 |
-| nutzungsidentifikator   | string    |             |                 |
+| nutzungsidentifikator   | string    |             | Usage identifier |
 | anzahl_baeume           | number    |             | Number of trees |
-| bewirtschaftungsgrad    | number    |             |                 |
+| bewirtschaftungsgrad    | number    |             | Degree to which the field is getting cultivated |
 | beitragsberechtigt      | number    |             |                 |
 | nutzung_im_beitragsjahr | number    |             |                 |
 | nhg                     | boolean   |             |                 |
@@ -53,7 +53,7 @@ The downloaded data can be shared with a open_by license. See https://opendata.s
 | schnittzeitpunkt        | string    |             |                 |
 | identifikator_be        | string    |             |                 |
 | identifikator_be        | string    |             |                 |
-| flaeche_m2              | int       |             | area            |
+| flaeche_m2              | int       |             | area in sq. meter |
 | kanton                  | string    |             | Canton code     |
 
 ### Example
