@@ -25,7 +25,7 @@ and area information.
 - **Documentation:** https://www.lad.gov.lv/lv/lauku-registra-dati
 - **File Format:** GML . Currently other GetCapabilities declared formats fail (like geopackage/shape)
 - **Projection:** EPSG:3059
-- **License:** WFS has nog access constraints
+- **License:** WFS has no access constraints
 
 ### Properties
 
