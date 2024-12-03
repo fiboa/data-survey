@@ -3,12 +3,12 @@
 ## Submission Details
 
 - **Submitter (Affiliation):** Ivor Bosloper
-- **Data Provider (Legal Entity):** Rural Support Survice Republic of Latvia (Lauku atbalsta dienests)
+- **Data Provider (Legal Entity):** Rural Support Service Republic of Latvia (Lauku atbalsta dienests)
 - **Homepage:** https://www.lad.gov.lv/lv/lauku-registra-dati
 
 ## Overview
 
-There's Field Blocks (Lauku bloku) and Fields (Lauku) for applications.
+There's Field Blocks (Lauku bloku) and Fields (Lauki) for applications.
 
 The land register is a geographic information system (GIS) that gathers information about agricultural land that is
 eligible for state and European Union support from direct support scheme payments or environmental,
