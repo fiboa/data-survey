@@ -26,7 +26,7 @@ find. This submission is based on the compiled & converted data.
 - **URL:** https://source.coop/repositories/pacificspatial/field-polygon-jp/description
 - **Documentation:** https://www.maff.go.jp/j/tokei/porigon/ (Japanese)
 - **File Format:** GeoParquet
-- **Projection:** 
+- **Projection:** EPSG:6668
 - **License:** CC-BY
 - **Attribution:** Fude Polygon Data (published for the fiscal years 2021, 2022, 2023, and 2024) provided by the Ministry of Agriculture, Forestry and Fisheries, processed by Pacific Spatial Solutions, Inc
 
