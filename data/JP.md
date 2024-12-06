@@ -36,6 +36,7 @@ Currently, the publishing organization doesn't mention _crop_ but designates thi
 
 ### Properties
 
+| Field Name             | Data Type | Description_en                                                                                                                                                                                          | Description_ja                                                                                                 |
 |------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | polygon_uuid           |  string   | Fude Polygon ID (UUID ver. 4)                                                                                                                                                                           | 筆ポリゴンID（UUID ver. 4）                                                                                    |
 | land_type              |  string   | Land use code (rice field or field) determined by visual interpretation of satellite imagery                                                                                                            | 衛星画像の目視判読による田、畑の地目コード                                                                     |
@@ -50,7 +51,7 @@ Currently, the publishing organization doesn't mention _crop_ but designates thi
 | point_lat              |  string   | Latitude of the polygon’s centroid                                                                                                                                                                      | ポリゴンの重心点の緯度                                                                                         |
 | old_polygon_id         |  string   | polygon_id of the data published in 2021                                                                                                                                                                | 2021年公開データのpolygon_id                                                                                   |
 | land_type_ja           |  string   | Japanese notation for land_type code (田 for rice field,  畑 for field)                                                                                                                                 | land_typeコードの日本語表記（田、または畑）                                                                    |
-| land_type_en           |  string   | English notation for land_type code (rice_field for rice field, field for field),                                                                                                                      | land_typeコードの英語表記（rice_field または field）                                                           |
+| land_type_en           |  string   | English notation for land_type code (rice_field for rice field,  field for field),                                                                                                                      | land_typeコードの英語表記（rice_field または field）                                                           |
 
 
 ### English Translations for the Attribute Values
