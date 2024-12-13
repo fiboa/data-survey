@@ -1,4 +1,4 @@
-# NZ National irrigated land spatial dataset
+# NZ National irrigated land
 
 ## Submission Details
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-This dataset covert Irrigated Land, and is not a full dataset on 
+This dataset covers Irrigated Land. It's not a full/high-quality crop field dataset for the country.
 
 DATA SOURCE: Aqualinc Research Limited, [Technical report available](https://environment.govt.nz/publications/national-irrigated-land-spatial-dataset-2020-update)
 
@@ -25,7 +25,7 @@ Data can be downloaded manually by going to https://data.mfe.govt.nz/layer/10540
 
 ## Data
 
-- **URL:** https://data.example/files/ (does not need to be the whole dataset, can just be a couple rows of representative data)
+- **URL:** https://data.mfe.govt.nz/layer/105407-irrigated-land-area-raw-2020-update/
 - **Documentation:** https://environment.govt.nz/publications/national-irrigated-land-spatial-dataset-2020-update/
 - **Document:** https://environment.govt.nz/assets/Publications/national-irrigated-land-spacial-dataset.pdf
 - **File Format:** GeoPackage / Shapefile
