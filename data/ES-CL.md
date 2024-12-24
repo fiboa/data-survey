@@ -23,6 +23,7 @@ Free use of the data is permitted, but commercial exploitation is prohibited.
 
 - **URL:** http://ftp.itacyl.es/cartografia/05_SIGPAC/
 - **Documentation:** http://ftp.itacyl.es/cartografia/05_SIGPAC/Catalogo_Metadatos/
+- **Documentation:** https://www.itacyl.es/agro-y-geo-tecnologia/descarga-datos-geograficos/sigpac
 - **File Format:** Shapefile+ZIP, spread over 255 zip-files
 - **Projection:** EPSG:4258
 - **License:** CC-NC (a Non-free license)
