@@ -40,7 +40,7 @@ As a result of this work, it has been possible to standardise the data referring
 - **Legal Framework:** https://www.gobiernodecanarias.org/boc/2023/090/010.html
 - **File Format:** Shapefile+Zip, one per island
 - **Projection:** EPSG:32628
-- **License:** CC-BY-NC-4.0 (You can request a free, commercial license)
+- **License:** CC-BY-4.0
 - **Attribution:** Gobierno de Canarias
 
 ### Properties
