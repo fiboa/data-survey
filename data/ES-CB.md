@@ -16,7 +16,7 @@ redestribute the data under a non-commercial license.
 - **URL:** https://mapas.cantabria.es/
 - **File Format:** OGC/ESRI webservices
 - **Projection:** EPSG:4326
-- **License:** For non-commerical usage; CC-BY-NC-4.0 (a non-free license)
+- **License:** CC-BY-NC-4.0 (a non-free license, for non-commerical usage)
   - Original license: https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=260596
   - A commercial use license is available for free on request. See https://www.territoriodecantabria.es/cartografia-sig/datos-abiertos-y-politica-de-licencias
   - License FAQ under https://www.territoriodecantabria.es/web/territorio-de-cantabria/cartografia-sig/descargas-y-politica-de-licencias/preguntas-frecuentes
