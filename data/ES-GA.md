@@ -1,4 +1,4 @@
-# Gallicia SIXPAC Crop Fields
+# Galicia SIXPAC Crop Fields
 
 ## Submission Details
 
