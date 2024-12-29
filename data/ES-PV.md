@@ -53,6 +53,6 @@ https://www.geo.euskadi.eus/cartografia/DatosDescarga/Documentacion/SIGPAC/20180
 |-----------|----------------------------------------------------------------------------------|-----------------|
 | OGC WMS   | https://www.geo.euskadi.eus/WMS_NEKAZARITZA?request=getcapabilities&SERVICE=WMS  | -               |
 
-## Examplea
+## Example
 
 https://www.geo.euskadi.eus/geobisorea/?lang=eu&extent=-277973.5727,5288315.52,-274916.0916,5290393.6517,102100&layers=AGRICULTURA_EUS_3611_94,AGRICULTURA_EUS_3611_95,AGRICULTURA_EUS_3611_96,AGRICULTURA_EUS_3611_97,AGRICULTURA_EUS_3611_98,AGRICULTURA_EUS_3611_99,AGRICULTURA_EUS_3611_100,AGRICULTURA_EUS_3611_101
