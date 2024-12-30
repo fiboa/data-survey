@@ -20,7 +20,7 @@ https://datosabiertos.castillalamancha.es/dataset/sistema-de-informaci%C3%B3n-ge
 - **URL:** https://datosabiertos.castillalamancha.es/dataset/sistema-de-informaci%C3%B3n-geogr%C3%A1fica-de-parcelas-agr%C3%ADcolas-de-castilla-la-mancha-sigpac
 - **Documentation:** https://datosabiertos.castillalamancha.es/dataset/sistema-de-informaci%C3%B3n-geogr%C3%A1fica-de-parcelas-agr%C3%ADcolas-de-castilla-la-mancha-sigpac-2
 - **File Format:** GeoJSON
-- **Projection:** EPSG:
+- **Projection:** EPSG:25830
 - **License:** CC-BY-SA-4.0 (see https://datosabiertos.castillalamancha.es/dataset/sistema-de-informaci%C3%B3n-geogr%C3%A1fica-de-parcelas-agr%C3%ADcolas-de-castilla-la-mancha-sigpac)
 - **Attribution:** Unidad de Cartografía. Secretaría General. Consejería de Agricultura , Ganadería y Desarrollo Rural.
 
