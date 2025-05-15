@@ -21,7 +21,7 @@ graphic in ESRI Shape format (in ETRS89 UTM 30N reference system) and alphanumer
 - **Documentation:** https://datos.gob.es/es/catalogo/a15002917-sigpac-recintos-sigpac
 - **File Format:** Shapefile+ZIP (per municipality)
 - **Projection:** EPSG:25830
-- **License:** CC-BY-4.0 (
+- **License:** CC-BY-4.0
 - **Attribution:** Comunidad Foral de Navarra
 
 ### Properties

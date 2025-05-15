@@ -29,7 +29,7 @@ methods used to develop the dataset, an analysis of label quality, and
 usage guidelines.
 
 Data is published at https://zenodo.org/records/11060871 and can be used in accordance
-with 
+with planet’s participant license agreement for the NICFI contract.
 
 ## Data
 
