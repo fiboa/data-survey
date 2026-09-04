@@ -32,6 +32,7 @@ The following data has been surveyed:
 - [Schleswig-Holstein (SH), Germany](data/DE-SH.md)
 - [Thuringia, Germany](data/DE-TH.md)
 - [Ireland: Geospatial aid application (GSAA) dataset](data/IE.md)
+- [South Tyrol (BZ), Italy](data/IT-BZ.md)
 - [Latvia](data/LV.md)
 - [Lithuania](data/LT.md)
 - [Luxembourg](data/LU.md)
