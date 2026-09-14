@@ -30,26 +30,31 @@ models and served through the GDI-SL geoportal:
 
 #### Properties
 
-| Property    | Data Type | Constraints                                 | Description                                             |
-|-------------|-----------|---------------------------------------------|---------------------------------------------------------|
-| identifier  | string    |                                             | INSPIRE feature identifier                              |
-| description | string    | `flik: DESLLI…`, `Size in ha: …`            | INSPIRE description; encodes FLIK and field size in ha  |
-| flik        | string    | FLIK pattern                                | Field block identifier (parsed from `description`)      |
-| area        | number    | hectares (parsed)                           | Field area in hectares (parsed from `description`)      |
-| name        | string    |                                             | Feature label                                           |
-| geometry    | Polygon   | EPSG:4258                                   | Field geometry                                          |
+| Property                                      | Data Type    | Constraints      | Description                                                                   |
+| --------------------------------------------- | ------------ | ---------------- | ----------------------------------------------------------------------------- |
+| `gml:identifier`                              | string       | required, unique | INSPIRE identifier, e.g. `…/ExistingLandUseObject_ed03310d…_DESLLI00002529002224568`; the FLIK is embedded in its last segment |
+| `elu:inspireId` → `localId` / `namespace`     | string       | required         | The same identifier split into its two INSPIRE parts                          |
+| `gml:name`                                    | string       | required         | Crop group as a German label, e.g. `Dauergrünland` (16 values)                 |
+| `elu:specificLandUse`                         | xlink        | required         | The same crop group as an `xlink:href` into [`de.iacs/CropValue`](https://registry.gdi-de.org/codelist/de.iacs/CropValue) |
+| `elu:hilucsLandUse`                           | xlink        | required         | HILUCS land use; always `1_1_Agriculture`                                      |
+| `elu:beginLifespanVersion` / `elu:observationDate` | date-time | always `xsi:nil` | The only date fields; never populated                                          |
+| `elu:hilucsPresence` / `elu:specificPresence` | —            | always `xsi:nil` | INSPIRE presence attributes; never populated                                   |
+| `elu:geometry`                                | MultiSurface | required         | Parcel geometry, always a single `gml:surfaceMember`                           |
+
+54,038 parcels (counted 2026-09-11). Unlike the reference-parcel service, this one serves **no
+`gml:description`**, so neither the FLIK nor the parcel area is available as a value: the FLIK is
+the first 16 characters of the identifier's last underscore-separated segment
+(`…_DESLLI00002529002224568` → `DESLLI0000252900`, the remaining seven digits numbering the parcel
+within the field block), and the area has to be computed from the geometry. With every date field
+nil, the data carries no vintage of its own; the GDI-DE dataset record
+`9fc76dc8-da6d-4e70-a2fa-b930843174b8` declares `revisionDate` 2026-01-01.
 
 #### Example
 
-Use the WFS endpoint above with a small bounding box, e.g.:
+Count the features, then request one page:
 
-```
-https://geoportal.saarland.de/gdi-sl/inspirewfs_Existierende_Bodennutzung_Antragsschlaege
-  ?SERVICE=WFS&REQUEST=GetFeature&VERSION=2.0.0
-  &typeNames=elu:ExistingLandUseObject
-  &outputFormat=application/gml%2Bxml;%20version=3.2
-  &EPSG=4258&BBOX=49.1,6.5423790007724,49.332379000772,6.7747580015449
-```
+    …/inspirewfs_Existierende_Bodennutzung_Antragsschlaege?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeNames=elu:ExistingLandUseObject&resultType=hits
+    …/inspirewfs_Existierende_Bodennutzung_Antragsschlaege?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&typeNames=elu:ExistingLandUseObject&outputFormat=application/gml%2Bxml;%20version=3.2&count=2500&startIndex=0
 
 ### Reference parcels (LPIS-Referenzschläge)
 
@@ -127,8 +132,8 @@ One feature, with the coordinate list truncated:
 | OGC WFS 2.0.0      | https://geoportal.saarland.de/gdi-sl/inspirewfs_Bodenbedeckung_LPIS                      | https://geoportal.saarland.de/spatial-objects/384    |
 | OGC API - Features | https://geoportal.saarland.de/spatial-objects/384/collections                            | https://geoportal.saarland.de/spatial-objects/384    |
 
-The reference-parcel WFS supports `startIndex` / `count` paging and reports `numberMatched`
-correctly, but always reports `numberReturned="0"`, so the page count has to be derived from a
-`resultType=hits` request. The OGC API - Features endpoint accepts `limit` only from the fixed set
+Both WFS endpoints support `startIndex` / `count` paging and report `numberMatched` correctly, but
+always report `numberReturned="0"`, so the page count has to be derived from a `resultType=hits`
+request. The OGC API - Features endpoint accepts `limit` only from the fixed set
 `1, 5, 10, 20, 50, 100, 200, 500, 1000, 2500`; any other value returns HTTP 200 with a plain-text
 error rather than JSON. Both APIs return the parcels ordered by area, ascending.
