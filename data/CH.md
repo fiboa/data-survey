@@ -14,11 +14,13 @@ basis for direct payments under the Swiss agricultural policy (the federal count
 
 ## Data
 
-- **URL:** Download via https://www.geodienste.ch/services/lwb_nutzungsflaechen . Filter on "Verfügbarkeit" == "Frei erhältlich" to select only the open data (excludes the cantons AR, NW, OW, VD, and LI).
+- **URL:** One GeoPackage per canton. The links and each canton's availability are listed in https://www.geodienste.ch/info/services.json?base_topics=lwb_nutzungsflaechen and as the `geopackage_zip` asset of the STAC items at https://www.geodienste.ch/stac/collections/lwb_nutzungsflaechen/items .
 - **Documentation:** https://www.geodienste.ch/services/lwb_nutzungsflaechen and https://geobasisdaten.ch/detail/818418/
 - **File Format:** GeoPackage
 - **Projection:** EPSG:2056 (CH1903+ / LV95)
 - **License:** [opendata.swiss terms of use](https://opendata.swiss/en/terms-of-use) (open_by — free use with mandatory source citation)
+
+Only the current state is published, there are no earlier years. Availability differs per canton and is listed in `services.json`; BS ships an empty file, its data is included in the BL file.
 
 The `ist_ueberlagernd` flag marks overlapping landscape elements that would otherwise duplicate the area.
 
@@ -43,7 +45,6 @@ The `ist_ueberlagernd` flag marks overlapping landscape elements that would othe
 | verpflichtung_von       | number    |             |                 |
 | verpflichtung_bis       | number    |             |                 |
 | schnittzeitpunkt        | string    |             |                 |
-| identifikator_be        | string    |             |                 |
 | identifikator_be        | string    |             |                 |
 | flaeche_m2              | int       |             | area in sq. meter |
 | kanton                  | string    |             | Canton code     |
