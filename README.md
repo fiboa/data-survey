@@ -38,6 +38,7 @@ The following data has been surveyed:
 - [Luxembourg](data/LU.md)
 - [The Netherlands](data/NL.md)
 - [Norway: AR50 Agricultural land](data/NO.md)
+- [Poland](data/PL.md)
 - [Portugal](data/PT.md)
 - [Romania (cross-border land cover)](data/RO.md)
 - [Slovakia](data/SK.md)
