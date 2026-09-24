@@ -61,6 +61,9 @@ The following data has been surveyed:
 - [País Vasco (Basque Country), Spain](data/ES-PV.md)
 - [Sweden](data/SE.md)
 - [Switzerland](data/CH.md)
+- [Geneva, Switzerland](data/CH-GE.md)
+- [Schwyz, Switzerland](data/CH-SZ.md)
+- [Zürich, Switzerland](data/CH-ZH.md)
 - [United Kingdom — UKFields (Fiboa-UK)](data/UK.md)
 - [Lithuania — KŽS](data/LT-KZS)
 
